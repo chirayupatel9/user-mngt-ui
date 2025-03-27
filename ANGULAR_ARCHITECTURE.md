@@ -179,12 +179,13 @@ These commands are used to create and manage Angular projects:
 
 Below are examples of files and directories created by common commands:
 
-### 1. Create a new Angular application:
+### 1. Create a new Angular application
 
 Command: `ng new <project-name>`
 
 Example:
-```
+
+```bash
 <project-name>/
 ├── src/
 │   ├── app/
@@ -200,12 +201,13 @@ Example:
 └── README.md
 ```
 
-### 2. Generate a new component:
+### 2. Generate a new component
 
 Command: `ng generate component <component-name>`
 
 Example:
-```
+
+```bash
 src/app/<component-name>/
 ├── <component-name>.component.ts
 ├── <component-name>.component.html
@@ -213,32 +215,35 @@ src/app/<component-name>/
 └── <component-name>.component.spec.ts
 ```
 
-### 3. Generate a new service:
+### 3. Generate a new service
 
 Command: `ng generate service <service-name>`
 
 Example:
-```
+
+```bash
 src/app/<service-name>.service.ts
 src/app/<service-name>.service.spec.ts
 ```
 
-### 4. Generate a new module:
+### 4. Generate a new module
 
 Command: `ng generate module <module-name>`
 
 Example:
-```
+
+```bash
 src/app/<module-name>/
 └── <module-name>.module.ts
 ```
 
-### 5. Build the application for production:
+### 5. Build the application for production
 
 Command: `ng build --prod`
 
 Example:
-```
+
+```bash
 dist/<project-name>/
 ├── index.html
 ├── main.js
