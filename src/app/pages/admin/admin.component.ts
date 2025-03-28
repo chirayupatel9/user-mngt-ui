@@ -1,17 +1,26 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-admin',
-  imports: [],
+  imports: [ FormsModule ], // Import FormsModule for template-driven forms
   templateUrl: './admin.component.html',
   styleUrl: './admin.component.css'
 })
 export class AdminComponent {
-  // Add any necessary logic for the Admin component here
+  username: string = '';
+  password: string = '';
+
   someAdminLogic(): void {
     console.log('Admin logic triggered!');
     // Add any specific logic for the admin component here
   }
-  // Example method to demonstrate functionality
 
+  onSubmit(): void {
+    const credentials = {
+      username: this.username,
+      password: this.password
+    };
+    console.log('Submitted credentials:', credentials);
+  }
 }
