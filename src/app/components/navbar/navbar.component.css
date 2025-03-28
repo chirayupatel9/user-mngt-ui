@@ -1,0 +1,17 @@
+.navbar-button {
+  background-color: #ffffff;
+  color: rgb(2, 2, 2);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-button:hover {
+  background-color: #ffffff;
+}
