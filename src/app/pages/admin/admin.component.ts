@@ -11,11 +11,6 @@ export class AdminComponent {
   username: string = '';
   password: string = '';
 
-  someAdminLogic(): void {
-    console.log('Admin logic triggered!');
-    // Add any specific logic for the admin component here
-  }
-
   onSubmit(): void {
     const credentials = {
       username: this.username,
